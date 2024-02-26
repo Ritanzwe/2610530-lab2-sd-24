@@ -1,0 +1,102 @@
+.head {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(17, 16, 16);
+    color: rgb(241, 234, 234);
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.left-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    justify-content: spa;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    display: inline-block; 
+    margin: 0 10px; 
+}
+
+
+.right-section h4 {
+    margin-right: 10px; /* Adjust the margin right as needed */
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.img1{
+    width: 600px;
+    height: 400px;
+}
+.grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.left-grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+    border: 1px solid black;
+    margin: 0;
+
+}
+.right-grid {
+   /* Each section takes up half of the available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px str;
+    border: 1px solid black;
+    margin: 0;
+}
+
+
+.img2,
+.img3 {
+    width: 600px;  
+    height: 400px; 
+    object-fit: cover;
+}
+P{
+    margin: 0;
+}
+h4{
+    margin: 0;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: rgb(17, 16, 16);
+    color: rgb(241, 234, 234);
+   margin-top: 30px;
+}
+
